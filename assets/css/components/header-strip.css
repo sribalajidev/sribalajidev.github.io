@@ -18,6 +18,22 @@
   margin: 0;
   padding-left: 8px;
 }
+.header-strip .latest-article-wrapper h3 {
+  font-size: 16px;
+}
+.header-strip .latest-article-wrapper .header-article {
+  position: relative;
+  padding-right: 150px;
+}
+.header-strip .latest-article-wrapper .header-article .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header-strip .latest-article-wrapper .header-article .owl-dots {
+  display: none;
+}
 .header-strip .social-icons ul{
   display: flex;
   list-style: none;
