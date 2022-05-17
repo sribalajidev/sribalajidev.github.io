@@ -1,0 +1,61 @@
+/* Site Branding */
+.site-branding-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 15px 0;
+}
+.site-branding-left, .site-branding-right {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.site-branding-left {
+  left: 0;
+}
+.site-branding-left h3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+  margin: 0;
+}
+.site-branding-left h3:first-child {
+  padding-right: 10px;
+  padding-left: 0;
+  border-right: 1px solid #000;
+}
+.site-branding-left .pointColon {
+  animation: digit 5s linear infinite;
+  padding: 0 3px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+@-webkit-keyframes digit {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.site-branding-center {
+  margin: 0 auto;
+}
+.site-branding-center a {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #000;
+  text-decoration: none;
+}
+.site-branding-right {
+  margin-left: auto;
+  right: 0;
+  gap: 25px;
+}
