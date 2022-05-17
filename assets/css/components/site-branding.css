@@ -59,3 +59,36 @@
   right: 0;
   gap: 25px;
 }
+.side-menu-toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  cursor: pointer;
+}
+.side-menu-toggle .bars, .side-menu-toggle .bars::before, .side-menu-toggle .bars::after {
+  position: absolute;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #000;
+  transition: all 0.5s ease;
+}
+.side-menu-toggle .bars::before, .side-menu-toggle .bars::after {
+  display: block;
+  content: "";
+  right: 0;
+}
+.side-menu-toggle .bars {
+  width: 30px;
+}
+.side-menu-toggle .bars::before {
+  bottom: -10px;
+  width: 20px;
+}
+.side-menu-toggle .bars::after {
+  bottom:  -20px;
+  width: 25px;
+}
+.side-menu-toggle:hover .bars, .side-menu-toggle:hover .bars::before, .side-menu-toggle:hover .bars::after{
+  width: 30px;
+}
