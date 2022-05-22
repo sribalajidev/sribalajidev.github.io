@@ -1,0 +1,36 @@
+/* Recent post section */
+.recent-post-inner {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+.recent-post-inner:hover {
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.recent-post-inner .post-image img {
+  min-width: 250px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.recent-post-inner .post-content {
+  padding: 20px;
+}
+.recent-post-inner .post-content .article-tag {
+  display: inline-block;
+  padding: 7px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  border: 1px solid #333;
+}
+.recent-post-inner a {
+  color: #333;
+}
+.recent-post-inner .post-content .action-icons {
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+  margin-bottom: 10px;
+}

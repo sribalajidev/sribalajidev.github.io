@@ -1,4 +1,6 @@
+@import url("components/basic.css");
 @import url("components/header-strip.css");
 @import url("components/site-branding.css");
 @import url("components/main-navigation.css");
 @import url("components/banner-component.css");
+@import url("components/widgets.css");
